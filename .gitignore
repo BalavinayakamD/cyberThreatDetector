@@ -1,2 +1,32 @@
-#Raw datasets
-data/raw
+# Raw datasets
+data/raw/
+
+# Processed data
+data/processed/
+
+# Trained models
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

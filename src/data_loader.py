@@ -23,6 +23,7 @@ if __name__ == "__main__":
     train_df = load_dataset(TRAIN_DATA_PATH)
     test_df = load_dataset(TEST_DATA_PATH)
 
+    print("Training Dataset Overview: ")
     inspect_dataset(train_df)
+    print("\n\nTesting Dataset Overview: ")
     inspect_dataset(test_df)
-
